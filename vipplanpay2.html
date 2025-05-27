@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Methods</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+    .payment-method {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+    .payment-method img {
+      width: 60px;
+      vertical-align: middle;
+      margin-right: 15px;
+      border-radius: 10px;
+    }
+    .payment-header {
+      display: flex;
+      align-items: center;
+    }
+    .method-title {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .description {
+      margin: 10px 0;
+    }
+    .details {
+      display: none;
+      margin-top: 10px;
+      padding-left: 20px;
+      color: #333;
+    }
+    .toggle-btn, .pay-btn {
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #fff;
+      border: solid gray 1px;
+      color: black;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .toggle-btn:hover, .pay-btn:hover {
+      background-color: white;
+    }
+  h5 {
+      margin-top: 10px;
+      color: red;
+      margin-buttom: 2px;
+     }
+    .dis {
+      font-size: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="payment-method">
+    <div class="payment-header">
+      <img src="https://dailybetpredictionstips.data.blog/wp-content/uploads/2025/05/20250522_122110481469131495567949.png?w=1024" alt="Selar">
+      <div class="method-title">SELAR (Online Payment)</div>
+    </div>
+    <p class="description">
+      Note that this payment method is automatic and you don't need to send a payment screenshot after payment.<br>
+      Your <strong>Email Address</strong> at checkout is your login access code in our App.
+    </p>
+    <a href="https://selar.com/5d3c07" target="_blank"><button class="pay-btn"><strong>Pay Now</strong></button></a>
+  </div>
+
+  <div class="payment-method">
+    <div class="payment-header">
+      <img src="https://dailybetpredictionstips.data.blog/wp-content/uploads/2025/05/20250522_1223051106769116079882138.png?w=1024" alt="Binance">
+      <div class="method-title">Binance $15(Pay with USDT Crypto)</div>
+    </div>
+    <p class="description">You will be granted access to our VIP once your payment is confirmed.</p>
+    <button class="toggle-btn" onclick="toggleDetails('binance-details')"><strong>View Details</strong></button>
+    <div class="details" id="binance-details">
+      <p>- Send payment to our Binance ID: <strong>772123807</strong></p>
+      <p>- Send <strong>payment screenshot</strong> to us on Telegram: <a href="https://t.me/thewinningvault" target="_blank"><strong>Click Here</strong></a></p>
+      <p>- Include your <strong>Email Address</strong> for VIP Access</p>
+      <p>- Access will be granted by the end of the day after confirmation.</p>
+    </div>
+    </div>
+  
+   <div class="payment-method">
+      <h5>Refund Policy</h5>
+      <p class="dis"><strong>Refund Policy:</strong> Please note that once you have paid for a plan, and you have been granted access, then the service is deemed to have been provided. After that point, there will be no refunds as the service has been delivered at your own request, and an agreed price before making payment. Information transmitted is intended only for person(s) or entity above the age of 18. Bet Responsibly!</p>
+      <p class="dis"><strong>DISCLAIMER:</strong> Premium Vip do NOT refund money paid for subscription and not liable to any money lost or gained. Countries that soccer betting is not legal should not subscribe to our plans.</p>
+    </div>
+  <script>
+    function toggleDetails(id) {
+      const el = document.getElementById(id);
+      el.style.display = el.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+
+</body>
+</html>
