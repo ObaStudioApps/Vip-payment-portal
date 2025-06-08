@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pay with AT Money</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #1d3557, #457b9d);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 400px;
+      width: 100%;
+      background-color: #202538;
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+
+    .container img {
+      width: 90px;
+      margin-bottom: 1.5rem;
+      border-radius: 25px;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 24px;
+      color: #e63946;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #ddd;
+      margin-bottom: 1.5rem;
+    }
+
+    .details-btn {
+      background-color: #e63946;
+      color: #fff;
+      padding: 10px 24px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 14px;
+      margin-top: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .details-btn:hover {
+      background-color: #c5303b;
+    }
+
+    .details-box {
+      margin-top: 1.5rem;
+      background-color: #2a2f47;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: left;
+      display: none;
+      font-size: 14px;
+    }
+
+    .details-box span {
+      display: block;
+      margin-bottom: 0.9rem;
+      color: #f0f0f0;
+    }
+
+    a {
+      color: #a8dadc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  
+    .ghana{
+      font-size: 13px;
+      color: orange
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="https://dailybetpredictionstips.data.blog/wp-content/uploads/2025/05/20250522_1229366429662565536832681-2.png?w=1024" alt="AT Money Logo">
+    <h2>Pay with AT Money<span class="ghana">(GHS 172.00)</span></h2>
+    <p>
+      Complete your VIP subscription using AT Money.<br>
+      Once payment is confirmed, access will be granted.<br>
+      Please follow the steps below carefully.
+    </p>
+    <button class="details-btn" onclick="toggleDetails()">View Payment Details</button>
+    <div class="details-box" id="details">
+      <span><strong>Send payment to:</strong><br><b>057 696 1939</b></span>
+      <span>Send payment screenshot on Telegram: <a href="https://t.me/thewinningvault" target="_blank">@thewinningvault</a></span>
+      <span>Include your <b>Email Address</b> for VIP access.</span>
+      <span>You’ll receive access before the day ends. Thanks for your trust!</span>
+    </div>
+  </div>
+
+  <script>
+    function toggleDetails() {
+      const box = document.getElementById('details');
+      box.style.display = box.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+
+</body>
+</html>
